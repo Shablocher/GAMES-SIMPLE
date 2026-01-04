@@ -33,4 +33,3 @@ Este é um jogo de Ping Pong clássico desenvolvido com a biblioteca `Turtle`. F
 
 ---
 
-**Desenvolvido por [Seu Nome]** *Estudante de Programação focado em Python e Lógica de Games.*
