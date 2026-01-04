@@ -30,6 +30,3 @@ Este é um jogo de Ping Pong clássico desenvolvido com a biblioteca `Turtle`. F
 - [ ] Implementar sistema de "Melhor de 5".
 - [ ] Adicionar um jogo da Cobrinha (Snake Game).
 - [ ] Criar um Space Invaders simples.
-
----
-
