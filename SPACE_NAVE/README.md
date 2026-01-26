@@ -1,7 +1,7 @@
-🚀 Space War: Boss Strike
+**🚀 Space War: Boss Strike**
 Um jogo de combate espacial estilo arcade construído com Python (Flask) no backend e HTML5 Canvas/JavaScript no frontend. Enfrente hordas de meteoros e monstros espaciais antes de desafiar o temível Cruzador Inimigo (Boss).
 
-🛠️ Tecnologias Utilizadas
+*🛠️ Tecnologias Utilizadas*
 Backend: Python 3.x com o framework Flask.
 
 Frontend: HTML5, CSS3 e JavaScript (Canvas API).
