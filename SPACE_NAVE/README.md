@@ -27,11 +27,4 @@ Um simulador de combate espacial estilo arcade com foco em progressão, desafios
     * Sons de disparos e explosões.
 * **Tela de Vitória:** Uma tela final personalizada com som de fanfarra e resumo de score após derrotar o Boss.
 
-## 💡 Dicas de Desenvolvimento (Futuro)
-**[ ] Adicionar Power-ups (tiro duplo, escudo extra).**
 
-**[ ] Implementar banco de dados SQLite para salvar o Ranking Global.**
-
-**[ ] Adicionar diferentes níveis de dificuldade.**
-
-**[ ] Trocar os blocos coloridos por Sprites (imagens .png) de naves reais.**
