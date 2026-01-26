@@ -1,39 +1,37 @@
-**🚀 Space War: Boss Strike**
-Um jogo de combate espacial estilo arcade construído com Python (Flask) no backend e HTML5 Canvas/JavaScript no frontend. Enfrente hordas de meteoros e monstros espaciais antes de desafiar o temível Cruzador Inimigo (Boss).
+# 🚀 Space War: Boss Strike
 
-*🛠️ Tecnologias Utilizadas*
-Backend: Python 3.x com o framework Flask.
+Um simulador de combate espacial estilo arcade com foco em progressão, desafios aleatórios e uma batalha final épica. Desenvolvido com **Python** no backend para orquestração e **JavaScript (Canvas API)** no frontend para alto desempenho gráfico.
 
-Frontend: HTML5, CSS3 e JavaScript (Canvas API).
+---
 
-Áudio: Web Audio API (Sons sintetizados via código, sem arquivos externos).
+## 🛠️ Tecnologias Utilizadas
 
-🎮 Funcionalidades
-Sistema de Vida: Escudos da nave que diminuem ao colidir ou ser atingido.
+* **Linguagem:** [Python 3.x](https://www.python.org/)
+* **Servidor Web:** [Flask](https://flask.palletsprojects.com/)
+* **Interface:** HTML5 Canvas & CSS3
+* **Áudio:** Web Audio API (Sons sintetizados em tempo real via código)
 
-Sistema de Recarga: Gerenciamento de cadência de tiro para evitar disparos infinitos.
+---
 
-Inimigos Aleatórios: Meteoros e monstros surgem com velocidades e posições variadas.
+## 🎮 Funcionalidades Principais
 
-Boss Final: Aparece após atingir 500 pontos, possui movimentação inteligente e disparos aleatórios.
+* **Sistema de Combate:** Nave com disparos laser e tempo de recarga (cooldown) para evitar spam.
+* **Inimigos Aleatórios:** Geração infinita de meteoros e monstros espaciais com velocidades dinâmicas.
+* **Sistema de Vida e Dano:** Escudo de energia (100%) que diminui ao colidir com inimigos ou ser atingido pelo Boss.
+* **Boss Final:** Ativado ao atingir **500 pontos**. O Boss possui:
+    * Barra de vida dedicada.
+    * Movimentação lateral inteligente.
+    * Ataques aleatórios com projéteis vermelhos de alto dano.
+* **Efeitos Especiais:** * Sistema de partículas para explosões coloridas.
+    * *Screen Shake* (vibração da tela) ao receber dano.
+    * Sons de disparos e explosões.
+* **Tela de Vitória:** Uma tela final personalizada com som de fanfarra e resumo de score após derrotar o Boss.
 
-Efeitos Visuais: Sistema de partículas para explosões e "shake" de tela ao sofrer dano.
+## 💡 Dicas de Desenvolvimento (Futuro)
+**[ ] Adicionar Power-ups (tiro duplo, escudo extra).**
 
-Áudio Dinâmico: Sons de laser, explosões e fanfarra de vitória gerados em tempo real.
+**[ ] Implementar banco de dados SQLite para salvar o Ranking Global.**
 
-🚀 Como Executar
-1. Pré-requisitos
-Certifique-se de ter o Python instalado. Você também precisará do Flask:
-pip install flask
+**[ ] Adicionar diferentes níveis de dificuldade.**
 
-2. Rodando a Aplicação
-Navegue até a pasta do projeto e execute:
-python app.py
-
-3. Acessando o Jogo
-Abra o seu navegador e acesse: http://127.0.0.1:5000
-
-⌨️ Controles
-Setas Esquerda/Direita: Movimentam a nave.
-Barra de Espaço: Dispara os canhões de laser.
-Botão Reiniciar: Aparece na tela de vitória/derrota.
+**[ ] Trocar os blocos coloridos por Sprites (imagens .png) de naves reais.**
